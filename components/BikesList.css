@@ -1,0 +1,54 @@
+.bikes_list {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.bikes_list::-webkit-scrollbar {
+  height: 10px;
+  outline: none;
+}
+
+.bikes_list::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background: red;
+}
+
+.bike_card {
+  margin: 10px 3px;
+  padding: 10px;
+  color: white;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.bike_card:hover {
+  transform: translateY(-40px);
+}
+
+.bike_card img {
+  background: white;
+  width: 500px;
+}
+
+@media (max-width: 500px) {
+  .bike_card img {
+    width: 300px;
+  }
+  .bikes_list::-webkit-scrollbar {
+    display: none;
+  }
+  .bike_card:hover {
+    transform: translateY(-30px);
+  }
+}
+
+.buy_option_card {
+  background: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

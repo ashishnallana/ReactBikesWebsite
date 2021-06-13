@@ -1,0 +1,28 @@
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100vw;
+  color: white;
+  padding: 0 10px 5px 10px;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+  z-index: 98;
+}
+
+.header h1 {
+  width: 180px;
+  text-align: right;
+  margin: 0 0 0 auto;
+}
+
+.header .fk_div {
+  height: 50px;
+  width: calc(100vw - 200px);
+  background: transparent;
+  position: absolute;
+}
+.nav_black {
+  background: black;
+}

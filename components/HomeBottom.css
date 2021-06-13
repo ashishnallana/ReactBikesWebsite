@@ -1,0 +1,25 @@
+.home_bottom {
+  width: 100vw;
+  background: black;
+  padding-bottom: 100px;
+}
+
+.home_bottom h2 {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.home_bottom_cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .home_bottom h2 {
+    font-size: 1.5rem;
+  }
+}
